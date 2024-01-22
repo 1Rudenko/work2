@@ -1,0 +1,46 @@
+body {
+    background-color: $silver-100;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: $dark;
+    @extend %rubik-400;
+}
+
+.section {
+    margin-bottom: 120px;
+}
+
+.button {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.54px;
+    border-radius: 6px;
+    background-color: $orang;
+    padding: 12px 32px;
+} 
+
+.button-show {
+    color: $darkBlue;
+    text-decoration: underline;
+}
+
+.button-small {
+    font-size: 14px;
+    padding: 7px 16px;
+    letter-spacing: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    color: $darkBlue;
+    @extend %rubik-500;
+    font-size: 36px;
+    line-height: 1.3;
+}
